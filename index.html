@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SmartFinance Prototype (Offline)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">SmartFinance Prototype</div>
+    <div class="controls">
+      <label class="toggle">
+        <input id="deviceToggle" type="checkbox" />
+        <span>Mode Mobile</span>
+      </label>
+      <input id="search" type="search" placeholder="Cari screen..." />
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <div class="hint">
+        <div><b>Petunjuk</b></div>
+        <div>• Klik nama screen untuk pindah</div>
+        <div>• Panah kiri/kanan: back/forward</div>
+        <div>• Ganti flow di <code>flow.json</code></div>
+      </div>
+      <div id="screenList" class="screen-list"></div>
+    </aside>
+
+    <section class="viewer">
+      <div class="viewer-header">
+        <div id="screenTitle" class="title"></div>
+        <div class="nav">
+          <button id="btnBack" class="btn">← Back</button>
+          <button id="btnHome" class="btn">Home</button>
+          <button id="btnForward" class="btn">Forward →</button>
+        </div>
+      </div>
+
+      <div class="frame-wrap">
+        <div id="deviceFrame" class="device desktop">
+          <img id="screenImg" alt="Prototype screen" />
+        </div>
+      </div>
+
+      <div class="actions">
+        <div class="actions-title">Navigasi cepat (Flow):</div>
+        <div id="flowButtons" class="flow-buttons"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

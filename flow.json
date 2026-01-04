@@ -1,0 +1,35 @@
+{
+  "_home": "smartfinance_desktop_login_1",
+  "smartfinance_desktop_login_1": [
+    "smartfinance_desktop_upload_1",
+    "smartfinance_desktop_forgot_password_1",
+    "smartfinance_desktop_register_1"
+  ],
+  "smartfinance_desktop_forgot_password_1": [
+    "smartfinance_desktop_login_1"
+  ],
+  "smartfinance_desktop_register_1": [
+    "smartfinance_desktop_login_1"
+  ],
+  "smartfinance_desktop_upload_1": [
+    "smartfinance_desktop_dashboard_1"
+  ],
+  "smartfinance_desktop_dashboard_1": [
+    "smartfinance_desktop_profile_1",
+    "smartfinance_desktop_preview_transaksi_1",
+    "smartfinance_desktop_insights_ai_1",
+    "smartfinance_desktop_statistik_1"
+  ],
+  "smartfinance_desktop_profile_1": [
+    "smartfinance_desktop_dashboard_1"
+  ],
+  "smartfinance_desktop_preview_transaksi_1": [
+    "smartfinance_desktop_dashboard_1"
+  ],
+  "smartfinance_desktop_insights_ai_1": [
+    "smartfinance_desktop_dashboard_1"
+  ],
+  "smartfinance_desktop_statistik_1": [
+    "smartfinance_desktop_dashboard_1"
+  ]
+}
